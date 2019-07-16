@@ -4,12 +4,11 @@ def VERSION_CODE = 3
 def VERSION_NAME = "0.0.3"
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    compileSdkVersion 25
 
     defaultConfig {
         minSdkVersion 11
-        targetSdkVersion 23
+        targetSdkVersion 26
         versionCode VERSION_CODE
         versionName VERSION_NAME
     }
